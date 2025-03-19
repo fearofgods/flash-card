@@ -1,0 +1,18 @@
+app:
+  name: "FlashCard"
+  version: "0.0.1-beta"
+  env: "development"
+
+server:
+  port: ":8080"
+
+database:
+  connect: ""
+
+logger:
+  level: "debug"
+  file_format: "./logs/dev.001.log"
+  max_size: 500
+  max_backups: 3
+  max_age: 28
+  compress: true

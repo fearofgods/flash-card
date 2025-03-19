@@ -1,0 +1,10 @@
+app:
+  name: "FlashCard"
+  version: "0.0.1-beta"
+  env: "default"
+
+server:
+  port: ":8080"
+
+database:
+  connect: ""
